@@ -1116,6 +1116,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(650,340)" to="(690,340)"/>
     <wire from="(800,330)" to="(840,330)"/>
     <wire from="(600,320)" to="(600,350)"/>
+    <wire from="(1080,260)" to="(1200,260)"/>
     <wire from="(590,440)" to="(1150,440)"/>
     <wire from="(670,100)" to="(670,180)"/>
     <wire from="(510,310)" to="(610,310)"/>
@@ -1152,8 +1153,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(350,230)" to="(350,310)"/>
     <wire from="(630,360)" to="(630,390)"/>
     <wire from="(240,290)" to="(240,310)"/>
+    <wire from="(570,490)" to="(570,570)"/>
     <wire from="(100,120)" to="(140,120)"/>
     <wire from="(850,340)" to="(850,360)"/>
+    <wire from="(720,380)" to="(1280,380)"/>
     <wire from="(590,600)" to="(590,620)"/>
     <wire from="(450,520)" to="(1000,520)"/>
     <wire from="(580,550)" to="(580,570)"/>
@@ -1171,6 +1174,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,320)" to="(480,320)"/>
     <wire from="(170,290)" to="(240,290)"/>
     <wire from="(1120,330)" to="(1120,370)"/>
+    <wire from="(720,330)" to="(720,380)"/>
     <wire from="(440,330)" to="(440,390)"/>
     <wire from="(530,540)" to="(530,590)"/>
     <wire from="(450,460)" to="(450,520)"/>
@@ -1182,6 +1186,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(560,500)" to="(610,500)"/>
     <wire from="(430,210)" to="(480,210)"/>
     <wire from="(930,540)" to="(930,610)"/>
+    <wire from="(1200,260)" to="(1200,290)"/>
     <wire from="(350,310)" to="(470,310)"/>
     <wire from="(610,500)" to="(610,570)"/>
     <wire from="(1080,300)" to="(1080,310)"/>
@@ -1189,6 +1194,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(610,310)" to="(610,330)"/>
     <wire from="(690,390)" to="(690,410)"/>
     <wire from="(1090,310)" to="(1140,310)"/>
+    <wire from="(1170,310)" to="(1220,310)"/>
     <wire from="(80,120)" to="(80,280)"/>
     <wire from="(580,180)" to="(580,350)"/>
     <wire from="(730,300)" to="(940,300)"/>
@@ -1199,13 +1205,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,130)" to="(630,130)"/>
     <wire from="(630,80)" to="(700,80)"/>
     <wire from="(530,540)" to="(930,540)"/>
+    <wire from="(1080,260)" to="(1080,300)"/>
     <wire from="(350,230)" to="(480,230)"/>
     <wire from="(150,640)" to="(600,640)"/>
     <wire from="(730,310)" to="(740,310)"/>
     <wire from="(1120,330)" to="(1140,330)"/>
     <wire from="(670,180)" to="(810,180)"/>
     <wire from="(980,330)" to="(980,570)"/>
+    <wire from="(1200,290)" to="(1220,290)"/>
     <wire from="(940,470)" to="(940,610)"/>
+    <wire from="(1280,300)" to="(1280,380)"/>
     <wire from="(510,300)" to="(700,300)"/>
     <wire from="(560,190)" to="(610,190)"/>
     <wire from="(570,340)" to="(570,470)"/>
@@ -1222,14 +1231,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(310,310)" to="(350,310)"/>
     <wire from="(690,320)" to="(690,340)"/>
     <wire from="(100,270)" to="(130,270)"/>
+    <wire from="(570,490)" to="(1230,490)"/>
     <wire from="(260,390)" to="(290,390)"/>
     <wire from="(520,220)" to="(540,220)"/>
     <wire from="(510,290)" to="(530,290)"/>
     <wire from="(940,310)" to="(970,310)"/>
     <wire from="(1000,330)" to="(1000,520)"/>
+    <wire from="(1250,300)" to="(1280,300)"/>
     <wire from="(530,290)" to="(530,540)"/>
     <wire from="(600,510)" to="(600,570)"/>
     <wire from="(1010,310)" to="(1080,310)"/>
+    <wire from="(1230,320)" to="(1230,490)"/>
     <wire from="(770,40)" to="(770,90)"/>
     <wire from="(40,40)" to="(40,290)"/>
     <wire from="(850,360)" to="(860,360)"/>
@@ -1244,13 +1256,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp loc="(1170,310)" name="Data Memory">
       <a name="label" val="Data Memory"/>
     </comp>
+    <comp lib="2" loc="(1250,300)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
     <comp loc="(560,590)" name="Main Control">
       <a name="facing" val="west"/>
       <a name="label" val="Main Control"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp loc="(1010,310)" name="ALU">
-      <a name="label" val="ALU"/>
     </comp>
     <comp lib="2" loc="(650,340)" name="Multiplexer">
       <a name="width" val="5"/>
@@ -1318,6 +1330,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp loc="(640,180)" name="Extender">
       <a name="label" val="Extender"/>
     </comp>
+    <comp loc="(1010,310)" name="ALU"/>
     <comp loc="(510,290)" name="instructionMemory">
       <a name="label" val="Instruction Memory"/>
     </comp>
@@ -1511,6 +1524,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(3060,2040)" to="(3060,2150)"/>
     <wire from="(980,810)" to="(1030,810)"/>
     <wire from="(640,370)" to="(640,1020)"/>
+    <wire from="(530,2200)" to="(530,2210)"/>
     <wire from="(900,970)" to="(900,980)"/>
     <wire from="(3000,2170)" to="(3000,2340)"/>
     <wire from="(970,720)" to="(970,730)"/>
@@ -1560,7 +1574,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(3400,1930)" to="(3400,2160)"/>
     <wire from="(4410,2050)" to="(4410,2130)"/>
     <wire from="(670,590)" to="(960,590)"/>
-    <wire from="(530,2200)" to="(530,2280)"/>
     <wire from="(1020,1220)" to="(1020,1230)"/>
     <wire from="(520,430)" to="(820,430)"/>
     <wire from="(870,620)" to="(870,700)"/>
@@ -1742,6 +1755,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(190,790)" to="(250,790)"/>
     <wire from="(970,730)" to="(970,800)"/>
     <wire from="(190,800)" to="(240,800)"/>
+    <wire from="(530,2210)" to="(530,2280)"/>
     <wire from="(940,830)" to="(940,860)"/>
     <wire from="(1390,360)" to="(4520,360)"/>
     <wire from="(1040,690)" to="(1420,690)"/>
@@ -1842,6 +1856,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(920,860)" to="(940,860)"/>
     <wire from="(190,2430)" to="(280,2430)"/>
     <wire from="(990,610)" to="(1010,610)"/>
+    <wire from="(530,2210)" to="(1000,2210)"/>
     <wire from="(3320,2060)" to="(3320,2150)"/>
     <wire from="(3640,2340)" to="(3750,2340)"/>
     <wire from="(5380,160)" to="(5380,2010)"/>
@@ -2299,6 +2314,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(200,180)" to="(470,180)"/>
     <wire from="(400,640)" to="(400,690)"/>
     <wire from="(1080,1190)" to="(1080,1290)"/>
+    <wire from="(930,1680)" to="(1000,1680)"/>
     <wire from="(4920,2150)" to="(4920,2340)"/>
     <wire from="(900,370)" to="(970,370)"/>
     <wire from="(270,1220)" to="(530,1220)"/>
@@ -2431,6 +2447,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(4760,1800)" to="(4760,2140)"/>
     <wire from="(580,2300)" to="(580,2320)"/>
     <wire from="(310,3020)" to="(2460,3020)"/>
+    <wire from="(1000,1680)" to="(1000,2210)"/>
     <wire from="(2350,2340)" to="(2420,2340)"/>
     <wire from="(3790,2160)" to="(3790,2900)"/>
     <wire from="(870,780)" to="(890,780)"/>
@@ -2965,12 +2982,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(5190,2150)" name="Controlled Buffer">
       <a name="facing" val="south"/>
       <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(530,2200)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Zero"/>
     </comp>
     <comp lib="1" loc="(520,430)" name="AND Gate"/>
     <comp lib="1" loc="(3480,2170)" name="Controlled Buffer">
