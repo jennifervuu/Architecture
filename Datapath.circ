@@ -3977,7 +3977,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(800,2000)" to="(800,2040)"/>
     <wire from="(1340,940)" to="(1340,990)"/>
     <wire from="(1420,940)" to="(1420,990)"/>
-    <wire from="(960,2000)" to="(960,2040)"/>
     <wire from="(1660,940)" to="(1660,990)"/>
     <wire from="(1330,1210)" to="(1720,1210)"/>
     <wire from="(1650,1050)" to="(1660,1050)"/>
@@ -4020,6 +4019,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1140,990)" to="(1150,990)"/>
     <wire from="(1070,1180)" to="(1720,1180)"/>
     <wire from="(720,2000)" to="(740,2000)"/>
+    <wire from="(960,2000)" to="(960,2100)"/>
     <wire from="(1760,1530)" to="(1760,2350)"/>
     <wire from="(1100,1780)" to="(1260,1780)"/>
     <wire from="(560,250)" to="(950,250)"/>
@@ -4086,7 +4086,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1110,1020)" to="(1110,1050)"/>
     <wire from="(950,1020)" to="(950,1050)"/>
     <wire from="(320,550)" to="(320,570)"/>
-    <wire from="(960,2070)" to="(960,2100)"/>
     <wire from="(800,2070)" to="(800,2100)"/>
     <wire from="(1110,2120)" to="(1110,2250)"/>
     <wire from="(800,1030)" to="(800,1050)"/>
@@ -4302,9 +4301,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="1" loc="(960,2070)" name="NOT Gate">
-      <a name="facing" val="south"/>
     </comp>
     <comp lib="1" loc="(1150,2070)" name="NOT Gate">
       <a name="facing" val="south"/>
